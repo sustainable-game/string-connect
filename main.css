@@ -1,0 +1,91 @@
+@import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+body{
+  margin: 0;
+  color: #4d2821;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+section{
+  padding: 3vh 20vw;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  section{
+    padding: 3vh 8vw;
+  }
+}
+.catchcopy{
+  font-size: 3em;
+  margin: 8vh 0;
+}
+header{
+  background-color: #fff;
+  text-align: center;
+}
+header img{
+  height: 70px;
+  margin: 18px;
+}
+
+#top{
+  margin-top: 8vh;
+  background-color: rgba(255, 246, 226, 0.7);
+  z-index: 10;
+  position: relative;
+  height: 30vw;
+  backdrop-filter: blur(3px);
+}
+
+#what{
+  background-color: #83b253;
+}
+#what h2{
+  color: #fff;
+}
+#what div{
+  background-color: #fff;
+  border-radius: 4px;
+  float: left;
+  text-align: center;
+  margin: 8px;
+  width: calc(33% - 16px);
+}
+#what::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.what-img{
+  display: block;
+  margin: 3vh auto;
+  height: 120px;
+}
+footer{
+  text-align: center;
+  padding: 48px;
+  background-color: #ffe5d0;
+  font-size: 24px;
+  font-weight: bold;
+}
+li, p{
+  line-height: 2em;
+  font-size: 18px;
+}
+.consept{
+  text-align: center;
+  font-size: 3em;
+}
+.top-images{
+  position: absolute;
+}
+.top-images img{
+  width: 33.333%;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  z-index: -10;
+}
+iframe{
+  margin: auto;
+  display: block;
+}
